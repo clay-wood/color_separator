@@ -18,7 +18,6 @@ class SepColors:
         
     def load_image(self):
         # Load the thin section image
-        self.impath = '/Users/clay/Desktop/img_proc/thinsection.jpg'
         im = Image.open(self.impath)
 
         # Convert to floats instead of the default 8 bits integer coding. Dividing by
